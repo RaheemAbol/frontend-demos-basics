@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .container {
+        display: flex;
+        height: 50vh;
+        width: 50vw;
+        border: 10px solid black;
+        gap: 50px;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap-reverse;
+      }
+
+      .boxes {
+        height: 75px;
+        width: 75px;
+        border: 1px solid blue;
+        font-weight: bold;
+        color: white;
+        text-align: center;
+      }
+
+      #box1 {
+        background-color: green;
+      }
+
+      #box2 {
+        background-color: blue;
+      }
+
+      #box3 {
+        background-color: yellow;
+        color: black;
+      }
+
+      #box4 {
+        background-color: red;
+      }
+
+      #box5 {
+        background-color: green;
+      }
+
+      #box6 {
+        background-color: silver;
+      }
+
+      #box7 {
+        background-color: tomato;
+      }
+
+      #box8 {
+        background-color: orange;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Flexbox demo</h1>
+
+    <div class="container">
+      <div class="boxes" id="box1">1</div>
+      <div class="boxes" id="box2">2</div>
+      <div class="boxes" id="box3">3</div>
+      <div class="boxes" id="box4">4</div>
+      <div class="boxes" id="box5">5</div>
+      <div class="boxes" id="box6">6</div>
+      <div class="boxes" id="box7">7</div>
+      <div class="boxes" id="box8">8</div>
+    </div>
+  </body>
+</html>
